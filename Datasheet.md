@@ -7,7 +7,7 @@ The task for this dataset is to predict whether the presented cancer is malign o
 
 ## Motivation
 ### Purpose and Source of the dataset
-The original source of the dataset are:
+The source of the dataset are:
 
 1. Dr. William H. Wolberg, General Surgery Dept.
 University of Wisconsin, Clinical Sciences Center
@@ -23,7 +23,7 @@ University of Wisconsin, 1210 West Dayton St., Madison, WI 53706
 olvi '@' cs.wisc.edu
 
 
-The purpose of the dataset is not known. However, the dataset was used in several publications to train different kinds of machine learning models to diagnose breast cancer from fine-needle aspirates.
+The purpose of the dataset is not known and it is not given who funded the creation of the dataset on behalf of which entity. However, the dataset was used in several publications to train different kinds of machine learning models to diagnose breast cancer from fine-needle aspirates.
 (see: W.N. Street, W.H. Wolberg and O.L. Mangasarian. Nuclear feature extraction for breast tumor diagnosis. IS&T/SPIE 1993 International Symposium on Electronic Imaging: Science and Technology, volume 1905, pages 861-870, San Jose, CA, 1993.,
 O.L. Mangasarian, W.N. Street and W.H. Wolberg. Breast cancer diagnosis and prognosis via linear programming. Operations Research, 43(4), pages 570-577, July-August 1995.,
 W.H. Wolberg, W.N. Street, and O.L. Mangasarian. Machine learning techniques to diagnose breast cancer from fine-needle aspirates. Cancer Letters 77 (1994) 163-171.) and others: https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29). Therefore, it meets the need to refine measures in cancer diagnosis to predict disease and patient outcomes with higher accuracy.
@@ -44,7 +44,7 @@ The dataset does not contain any confidential data of patients and it is not eve
 It is also not possible to identify single individuals and does not contain further health data or identification for the patients from which the samples were taken.
 
 ## Collection process
-It is not clear how and by whome the dataset was created, which institution conducted the sample collection and which institution conducted the image analysis. The dataset was donated by Nick Street on 01.11.1995. It is not known whether an ethical review process was conducted when the data was created but it can be assumed that it meets the academic standards of the medical scientific community
+It is not clear how and by whome the dataset was created, which institution conducted the sample collection and which institution conducted the image analysis and feature extraction. The dataset was donated by Nick Street on 01.11.1995. It is not known whether an ethical review process was conducted when the data was created but it can be assumed that it meets the academic standards of the medical scientific community
 as it is provided by academic staff of the University of Wisconsin. Further information about the process how consent was obtained from patients that provided samples is not available.
 
 ## Preprocessing/cleaning/labelling
